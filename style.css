@@ -1,0 +1,49 @@
+
+body{
+background-image: url("hero.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+height: 727px;
+
+}
+
+
+#flex-container{
+
+	display: flex;
+	height: 727px;
+	justify-content: center;
+	align-items: flex-end;
+	align-content: space-around;
+
+	
+}
+
+#flex-container > div{
+
+  width: 150px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  color: coral;
+  
+ 
+}
+
+
+div:hover{
+     
+    border-radius: 50px;
+	box-shadow:
+        0 0 300px 0px lightcoral,  
+        0 0 500px 10px lightyellow, 
+        0 0 500px 100px lightyellow;
+
+
+        
+
+
+
+
+}
